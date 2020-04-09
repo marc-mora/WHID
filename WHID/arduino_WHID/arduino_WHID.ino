@@ -103,6 +103,8 @@ void Pulsar(String b){
 }
 
 void setup() {
+  pinMode(13, OUTPUT);
+  digitalWrite(13, HIGH);
   Serial.begin(BAUD_RATE);
   PuertoSerie.begin(BAUD_RATE);
   Keyboard.begin();
