@@ -16,6 +16,17 @@ Once the esp12 is connected, it will create a wifi ap called WHID and with the p
 
 At the address 192.168.4.1 we will get the interface to send the keyboard and mouse functions.
 
+To compile the esp program the following libraries will be necessary:
+* ESP8266WiFi.h
+* WiFiClient.h
+* ESP8266WebServer.h
+* WebSocketsServer.h
+* ESP8266mDNS.h
+
+The following libraries will be necessary for the atmega program:
+* Keyboard.h
+* Mouse.h
+
 Keep in mind that since it is a project that uses the Keyboard.h library and is intended in Spanish, we must add the layouts for that language.
 These are available in the keyboard / src folder.
 
