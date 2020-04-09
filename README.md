@@ -20,7 +20,7 @@ To compile the esp program the following libraries will be necessary:
 * ESP8266WiFi.h
 * WiFiClient.h
 * ESP8266WebServer.h
-* WebSocketsServer.h
+* WebSocketsServer.h  https://github.com/Links2004/arduinoWebSockets
 * ESP8266mDNS.h
 
 The following libraries will be necessary for the atmega program:
