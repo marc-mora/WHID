@@ -33,7 +33,9 @@ These are available in the keyboard / src folder.
 Steps to follow for installation on a CactusWhid device:
 
 1-Load with the Arduino IDE the program called ESP_Programmer located in the tools folder.
-2.Once the programmer is loaded we can generate a binary of the ESP-WHID program or use the one that exists in the tools folder. We will load it using the ESP8266Flasher.exe tool.
+
+2-Once the programmer is loaded we can generate a binary of the ESP-WHID program or use the one that exists in the tools folder. We will load it using the ESP8266Flasher.exe tool.
+
 3-Once the previous step has been successfully carried out, we can directly load the arduino_WHID program through the Arduino IDE.
 
 Contact
